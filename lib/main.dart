@@ -18,7 +18,9 @@ class _FirstclassState extends State<Firstclass> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Facebook',
+      title: 'Facebook', theme: ThemeData(
+      primarySwatch: Colors.amber,
+    ),
       home: Scaffold(
         appBar: AppBar(
           elevation: 1,
